@@ -1,7 +1,9 @@
 
+import React, { useState } from 'react';
 import './App.css'
 // import Banner from './components/Banner'
 // import NavBar from './components/NavBar' 
+import Student from './components/student';
 
 
 
@@ -26,6 +28,11 @@ function App() {
   //   roll: 1300
   // }
   // ]
+    const [count , SetCount] = useState(0)
+
+  const HandleClick = (()=>{
+    SetCount(count +1)
+  });
 
   return (
     <div>
@@ -41,7 +48,14 @@ function App() {
         })
       } */}
       
-        <Student name="nahid hasan" roll="16"/>
+        {/* <Student name="nahid hasan" roll="16"/> */}
+      
+  
+
+       <Student name="rakin"/>
+       <Student name="rakib"/>
+       <Student name="akib"/>
+     
     </div>
   );
 }
@@ -57,17 +71,17 @@ function App() {
 //     </>
 //   )
 // }
- function Student (props) {
-  // const {name, roll} = item
-  return (
-    <>
-      <div className='info'>
-        <h2>Name: {props.name} </h2>
-        <h3>Roll: {props.roll} </h3>
-      </div>
-    </>
-  )
-}
+//  function Student (props) {
+//   // const {name, roll} = item
+//   return (
+//     <>
+//       <div className='info'>
+//         <h2>Name: {props.name} </h2>
+//         <h3>Roll: {props.roll} </h3>
+//       </div>
+//     </>
+//   )
+// }
 
 
 
