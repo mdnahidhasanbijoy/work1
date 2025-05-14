@@ -51,7 +51,7 @@ function App() {
 //   return (
 //     <>
 //       <div className='info'>
-//         <h2>Name: {item.name} </h2>
+//         <h2>Name: {item.name} </h2>    //this code for StudenInfo execution
 //         <h3>Roll: {item.roll} </h3>
 //       </div>
 //     </>
