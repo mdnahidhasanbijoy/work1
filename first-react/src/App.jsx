@@ -40,12 +40,23 @@ function App() {
          
         })
       } */}
-      <Student name="nahid hasan" roll="16"/>
-
+      
+        <Student name="nahid hasan" roll="16"/>
     </div>
   );
 }
 
+//  function Student ({item}) {
+//   // const {name, roll} = item
+//   return (
+//     <>
+//       <div className='info'>
+//         <h2>Name: {item.name} </h2>
+//         <h3>Roll: {item.roll} </h3>
+//       </div>
+//     </>
+//   )
+// }
  function Student (props) {
   // const {name, roll} = item
   return (
